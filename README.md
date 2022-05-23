@@ -1,5 +1,6 @@
 # QSnakeGame
 Snake game RL environment for Ubiquant competition 2022.
+We provide a gym-like interface for training RL agent.
 
 
 
@@ -20,7 +21,7 @@ pip install -e .
 ```
 
 Create env and step.
-
+Do not move the snake out fo the map, such behavior may cause the game error.
 ```python
 from snake_env.core import SnakeEnv
 
